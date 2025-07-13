@@ -1,0 +1,59 @@
+# This is the configuration file for Ghostty.
+#
+# config-path: 
+# /Users/roberttarabrin/Library/Application Support/com.mitchellh.ghostty/config
+#
+# config-options:
+# ghostty +show-config --default --docs
+
+shell-integration-features = no-cursor
+
+# window:
+window-colorspace = display-p3
+window-height = 40
+window-width = 120
+
+# font:
+font-size = 16
+font-family = "MesloLGS NF"
+
+# colors:
+theme = "rose-pine"
+minimum-contrast = 2.1
+bold-is-bright = true
+
+# For definitions on the color indices and what they canonically map to 
+# https://www.ditig.com/256-colors-cheat-sheet
+#palette = 0=#000000
+#palette = 1=#da4069
+#palette = 2=#6cce80
+#palette = 3=#f6cb44
+#palette = 4=#4eadf8
+#palette = 5=#eb5181
+#palette = 6=#8ff8db
+#palette = 7=#fefefe
+#palette = 8=#b2bdc4
+#palette = 9=#db4c75
+#palette = 10=#9ff2a9
+#palette = 11=#fae48c
+#palette = 12=#94d5fa
+#palette = 13=#ee86aa
+#palette = 14=#84e6c9
+#palette = 15=#fefefe
+
+# cursor settings:
+cursor-style = block
+cursor-style-blink = false
+
+# title:
+macos-titlebar-proxy-icon = hidden
+title = "ghostty"
+
+# keybinds: 
+keybind = cmd+r=reload_config
+
+# option-as-alt:
+macos-option-as-alt = left
+
+keybind = alt+left=unbind
+keybind = alt+right=unbind
