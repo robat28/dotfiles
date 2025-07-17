@@ -8,6 +8,9 @@ alias zshconfig='$EDITOR ~/.zshrc'
 alias aliases='$EDITOR ~/.aliases.zsh'
 alias exports='$EDITOR ~/.exports.zsh'
 
+# ------------ YAZI --------------
+alias y='yazi'
+
 # ------------ LSD --------------
 alias ls='lsd --oneline --classify'
 
