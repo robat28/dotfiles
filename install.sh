@@ -36,8 +36,8 @@ if [[ -f Brewfile ]]; then
 else
   info "Installing required packages individually…"
   brew install \
-    stow zsh zoxide bat fd fzf lsd git node
-  brew install --cask ghostty
+    stow zsh zoxide bat fd fzf lsd git node neofetch
+  brew install --cask ghostty visual-studio-code aerospace
 fi
 
 # ──────────────────  Make Zsh the default login shell  ──────────────────────
