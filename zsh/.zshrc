@@ -60,6 +60,8 @@ export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 # Path for postgresql
 export PATH="$(brew --prefix postgresql@17)/bin:$PATH"
 
-
 autoload -U colors && colors
 PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
+
+# To customize prompt, run `p10k configure` or edit ~/dotfiles/zsh/.p10k.zsh.
+[[ ! -f ~/dotfiles/zsh/.p10k.zsh ]] || source ~/dotfiles/zsh/.p10k.zsh
