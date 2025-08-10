@@ -141,16 +141,20 @@ alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'com.mitchellh.ghostty'
-run = "move-node-to-workspace 2"
+run = "move-node-to-workspace 1"
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
-run = "move-node-to-workspace 3"
+run = "move-node-to-workspace 2"
 
 [[on-window-detected]]
 if.app-id = 'org.mozilla.firefox'
-run = "move-node-to-workspace 4"
+run = "move-node-to-workspace 3"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
-run = ['layout floating', 'move-node-to-workspace 1']    
+run = ['layout floating', 'move-node-to-workspace 4']
+
+#[[on-window-detected]]
+#if.app-id = ['com.apple.finder', 'com.apple.mail', 'net.whatsapp.WhatsApp']
+#run = ['move-node-to-workspace 4']
