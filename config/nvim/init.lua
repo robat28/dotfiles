@@ -1,0 +1,2 @@
+require("robat")
+print("hello")
