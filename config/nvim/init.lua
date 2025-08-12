@@ -1,2 +1,1 @@
 require("robat")
-print("hello")

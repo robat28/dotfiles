@@ -56,7 +56,6 @@ export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | 
 # Path for clang++ compiler
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
-
 # Path for postgresql
 export PATH="$(brew --prefix postgresql@17)/bin:$PATH"
 
