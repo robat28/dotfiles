@@ -5,8 +5,8 @@ IFS=$'\n\t'
 
 # ──────────────────────────────  Helpers  ────────────────────────────────────
 info()  { printf "\033[38;5;117m➜ %s\033[0m\n" "$*"; }   # cyan
-warn()  { printf "\033[38;5;214m⚠  %s\033[0m\n" "$*"; } # orange
-error() { printf "\033[38;5;196m✖  %s\033[0m\n" "$*"; } # red
+warn()  { printf "\033[38;5;214m⚠  %s\033[0m\n" "$*"; }  # orange
+error() { printf "\033[38;5;196m✖  %s\033[0m\n" "$*"; }  # red
 
 # ──────────────────────────────  dotfiles  ─────────────────────────────
 
@@ -36,8 +36,8 @@ if [[ -f Brewfile ]]; then
 else
   info "Installing required packages individually…"
   brew install \
-    stow zsh zoxide bat fd fzf lsd git node neofetch
-  brew install --cask ghostty visual-studio-code aerospace
+    git stow zsh bat fd lsd fzf yazi zoxide eza node lua neovim neofetch 
+  brew install --cask ghostty aerospace firefox raycast rectangle aldente alt-tab caffeine visual-studio-code 
 fi
 
 # ──────────────────  Make Zsh the default login shell  ──────────────────────
@@ -80,7 +80,7 @@ clone_or_pull () {
   fi
 }
 
-clone_or_pull https://github.com/romkatv/powerlevel10k.git         "${ZSH_CUSTOM}/themes/powerlevel10k"
+clone_or_pull https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM}/themes/powerlevel10k"
 clone_or_pull https://github.com/zsh-users/zsh-autosuggestions.git "${ZSH_CUSTOM}/plugins/zsh-autosuggestions"
 clone_or_pull https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting"
 
@@ -102,5 +102,5 @@ stow --restow --target "$HOME" zsh
 # 2. XDG-style configs (bat, ghostty, yazi, …)
 stow --restow --target "$HOME/.config" config
 
-info "✨  All done!"
+info "✨ All done"
 
