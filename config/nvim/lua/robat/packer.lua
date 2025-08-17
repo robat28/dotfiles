@@ -4,10 +4,10 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-    -- Packer 
+    -- Packer - Package Manager
     use 'wbthomason/packer.nvim'
 
-    -- Telescope
+    -- Telescope - Fuzzy finder
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.8',
         requires = { {'nvim-lua/plenary.nvim'} }
@@ -29,7 +29,7 @@ return require('packer').startup(function(use)
     use { "williamboman/mason.nvim" }
     use { "williamboman/mason-lspconfig.nvim" }
 
-    -- LSP
+    -- LSP - Language Server Protocol
     use({
         'neovim/nvim-lspconfig',
         requires = {
@@ -48,10 +48,13 @@ return require('packer').startup(function(use)
         }
     })
 
-    -- blink.cmp
+    -- blink.cmp - autocompletion
     use ({
         'saghen/blink.cmp',
         requires = { 'rafamadriz/friendly-snippets' },
         tag = 'v1.6.0',
     })
+
+    -- iron - Notebook feature
+  use {'Vigemus/iron.nvim'}   use {'Vigemus/iron.nvim'}
 end)
