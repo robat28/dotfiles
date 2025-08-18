@@ -22,7 +22,7 @@ return require('packer').startup(function(use)
         end
     })
 
-    -- Treesitter
+    -- Treesitter - Parser
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
     -- Mason
@@ -48,7 +48,7 @@ return require('packer').startup(function(use)
         }
     })
 
-    -- blink.cmp - autocompletion
+    -- blink.cmp - Autocompletion
     use ({
         'saghen/blink.cmp',
         requires = { 'rafamadriz/friendly-snippets' },
@@ -56,5 +56,5 @@ return require('packer').startup(function(use)
     })
 
     -- iron - Notebook feature
-  use {'Vigemus/iron.nvim'}   use {'Vigemus/iron.nvim'}
-end)
+    use {'Vigemus/iron.nvim'}
+  end)
