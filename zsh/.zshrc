@@ -52,12 +52,18 @@ export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # -----------------------------
 
+# Unbinds 'Meta-a' bind for tmux
+bindkey -M emacs '\ea' undefined-key
 
 # Path for clang++ compiler
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # Path for postgresql
 export PATH="$(brew --prefix postgresql@17)/bin:$PATH"
+
+# Path for .config folder
+export XDG_CONFIG_HOME="$HOME/.config"
+
 
 autoload -U colors && colors
 PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
