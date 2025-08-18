@@ -9,18 +9,19 @@
 shell-integration-features = no-cursor
 
 # window:
-window-colorspace = display-p3
+#window-colorspace = display-p3
 window-height = 40
 window-width = 120
 background-opacity = 0.95
 background = #121212
+background-blur = false
 
 # font:
 font-size = 19
 font-family = "MesloLGS NF"
 
 # colors:
-theme = "rose-pine"
+theme = "rose-pine-moon"
 minimum-contrast = 2.1
 bold-is-bright = true
 
