@@ -1,15 +1,8 @@
 # This is the configuration file for Ghostty.
-#
-# config-path: 
-# /Users/roberttarabrin/Library/Application Support/com.mitchellh.ghostty/config
-#
-# config-options:
-# ghostty +show-config --default --docs
 
 shell-integration-features = no-cursor
 
 # window:
-#window-colorspace = display-p3
 window-height = 40
 window-width = 120
 background-opacity = 0.95
@@ -22,8 +15,8 @@ font-family = "MesloLGS NF"
 
 # colors:
 theme = "rose-pine-moon"
-minimum-contrast = 2.1
-bold-is-bright = true
+#minimum-contrast = 2.1
+#bold-is-bright = true
 
 # cursor settings:
 cursor-style = block
@@ -33,11 +26,11 @@ cursor-style-blink = false
 macos-titlebar-proxy-icon = hidden
 title = "ghostty"
 
-# keybinds: 
-keybind = cmd+r=reload_config
-
 # option-as-alt:
 macos-option-as-alt = right
 
+# keybinds: 
+keybind = cmd+r=reload_config
+    
 keybind = alt+left=unbind
 keybind = alt+right=unbind
