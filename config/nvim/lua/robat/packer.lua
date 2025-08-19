@@ -7,12 +7,6 @@ return require('packer').startup(function(use)
     -- Packer - Package Manager
     use 'wbthomason/packer.nvim'
 
-    -- Telescope - Fuzzy finder
-    use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.8',
-        requires = { {'nvim-lua/plenary.nvim'} }
-    }
-
     -- Colorscheme - (rose-pine)
     use({
         'rose-pine/neovim',
@@ -21,6 +15,12 @@ return require('packer').startup(function(use)
             vim.cmd('colorscheme rose-pine')
         end
     })
+
+    -- Telescope - Fuzzy finder
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.8',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
 
     -- Treesitter - Parser
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -55,6 +55,13 @@ return require('packer').startup(function(use)
         tag = 'v1.6.0',
     })
 
-    -- iron - Notebook feature
+    -- lualine - Custom neovim statusline
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons'}
+    }
+
+    -- iron - Jupyter Notebook feature
     use {'Vigemus/iron.nvim'}
+
   end)
