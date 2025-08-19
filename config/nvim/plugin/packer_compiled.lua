@@ -90,7 +90,7 @@ _G.packer_plugins = {
     url = "https://github.com/Vigemus/iron.nvim"
   },
   ["lazydev.nvim"] = {
-    config = { "\27LJ\2\n™\1\0\0\6\0\b\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0004\3\3\0005\4\3\0005\5\4\0=\5\5\4>\4\1\3=\3\a\2B\0\2\1K\0\1\0\flibrary\1\0\1\flibrary\0\nwords\1\2\0\0\fvim%.uv\1\0\2\nwords\0\tpath\23${3rd}/luv/library\nsetup\flazydev\frequire\0" },
+    config = { "\27LJ\2\n™\1\0\0\6\0\b\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0004\3\3\0005\4\3\0005\5\4\0=\5\5\4>\4\1\3=\3\a\2B\0\2\1K\0\1\0\flibrary\1\0\1\flibrary\0\nwords\1\2\0\0\fvim%.uv\1\0\2\tpath\23${3rd}/luv/library\nwords\0\nsetup\flazydev\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
