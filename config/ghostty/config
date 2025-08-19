@@ -15,8 +15,7 @@ font-family = "MesloLGS NF"
 
 # colors:
 theme = "rose-pine-moon"
-#minimum-contrast = 2.1
-#bold-is-bright = true
+bold-is-bright = false
 
 # cursor settings:
 cursor-style = block
