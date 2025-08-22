@@ -55,6 +55,9 @@ return require('packer').startup(function(use)
         tag = 'v1.6.0',
     })
 
+    -- conform - Formater
+    use{"stevearc/conform.nvim"}
+
     -- lualine - Custom neovim statusline
     use {
         'nvim-lualine/lualine.nvim',
