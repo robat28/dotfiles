@@ -78,7 +78,7 @@ require('lualine').setup {
         -- Left
         lualine_a = { mode },
         lualine_b = { filename },
-        lualine_c = { 'diagnostics', 'diff' },
+        lualine_c = { 'diagnostics'},
 
         -- Right
         lualine_x = { filetype },
