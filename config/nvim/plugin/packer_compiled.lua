@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/roberttarabrin/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/roberttarabrin/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["iron.nvim"] = {
     loaded = true,
     path = "/Users/roberttarabrin/.local/share/nvim/site/pack/packer/start/iron.nvim",
@@ -152,6 +157,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/roberttarabrin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "/Users/roberttarabrin/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   }
 }
 

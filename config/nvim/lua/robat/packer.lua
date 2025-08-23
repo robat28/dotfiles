@@ -64,6 +64,15 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons'}
     }
 
+    -- indent-blankline - Indentation lines
+    use {"lukas-reineke/indent-blankline.nvim"}
+
+    -- todo-comments - Highlighting TODOS
+    use {
+        "folke/todo-comments.nvim",
+        requires = { "nvim-lua/plenary.nvim" },
+    }
+
     -- iron - Jupyter Notebook feature
     use {'Vigemus/iron.nvim'}
 
