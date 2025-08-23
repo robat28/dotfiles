@@ -23,7 +23,7 @@ cursor-style-blink = false
 
 # title:
 macos-titlebar-proxy-icon = hidden
-title = ""
+title = " "
 
 # option-as-alt:
 macos-option-as-alt = right
