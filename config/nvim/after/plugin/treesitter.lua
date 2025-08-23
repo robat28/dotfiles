@@ -1,24 +1,24 @@
-require'nvim-treesitter.configs'.setup {
-  -- A list of parser names, or "all" (the listed parsers MUST always be installed)
-  ensure_installed = { "c", "lua", "python", "javascript", "typescript", "vim", "vimdoc", "query"},
+require("nvim-treesitter.configs").setup({
+	-- A list of parser names, or "all" (the listed parsers MUST always be installed)
+	ensure_installed = { "c", "lua", "python", "javascript", "typescript", "vim", "vimdoc", "query" },
 
-  -- Install parsers synchronously (only applied to `ensure_installed`)
-  sync_install = false,
+	-- Install parsers synchronously (only applied to `ensure_installed`)
+	sync_install = false,
 
-  -- Automatically install missing parsers when entering buffer
-  auto_install = false,
+	-- Automatically install missing parsers when entering buffer
+	auto_install = false,
 
-  indent = {enable = true},
+	indent = { enable = true },
 
-  modules = {},
+	modules = {},
 
-  ignore_install = {},
+	ignore_install = {},
 
-  highlight = {
-    enable = true,
+	highlight = {
+		enable = true,
 
-    -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
-    -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
-    additional_vim_regex_highlighting = false,
-  },
-}
+		-- Setting this to true will run `:h syntax` and tree-sitter at the same time.
+		-- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
+		additional_vim_regex_highlighting = false,
+	},
+})

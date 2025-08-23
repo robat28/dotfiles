@@ -5,7 +5,7 @@ require("ibl").setup({
         highlight = nil,
     },
     scope = {
-        enabled = true,
+        enabled = false,
         show_start = false,
         show_end = false,
     },
