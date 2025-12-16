@@ -37,7 +37,7 @@ else
   info "Installing required packages individually…"
   brew install \
     git stow zsh bat fd lsd fzf yazi zoxide eza node lua neovim fastfetch
-  brew install --cask ghostty aerospace firefox raycast rectangle aldente alt-tab caffeine visual-studio-code 
+  brew install --cask ghostty firefox raycast rectangle aldente alt-tab caffeine aerospace hiddenbar visual-studio-code discord
 fi
 
 # ──────────────────  Make Zsh the default login shell  ──────────────────────
