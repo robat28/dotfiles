@@ -153,6 +153,10 @@ run = "move-node-to-workspace 3"
 if.app-id = 'com.apple.finder'
 run = ['layout floating', 'move-node-to-workspace 4']
 
+[[on-window-detected]]
+if.app-id = 'org.python.python'
+run = ['layout floating']
+
 #[[on-window-detected]]
 #if.app-id = ['com.apple.finder', 'com.apple.mail', 'net.whatsapp.WhatsApp']
 #run = ['move-node-to-workspace 4']
