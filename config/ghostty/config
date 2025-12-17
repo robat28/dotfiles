@@ -14,7 +14,7 @@ font-size = 19
 font-family = "MesloLGS NF"
 
 # colors:
-theme = "rose-pine-moon"
+theme = Rose Pine Moon
 bold-is-bright = false
 
 # cursor settings:
